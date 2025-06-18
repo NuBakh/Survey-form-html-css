@@ -1,0 +1,88 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient( rgba(58, 58, 158, 0.8)), url(survey-form-background.jpeg);
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+    font-size: 22px;
+    margin: 5px;
+}
+
+
+input{
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+
+label{
+    color: white;
+    font-size: 22px;
+    padding:10px 0; 
+}
+
+option{
+    color: gray;
+}
+
+#title, #description{
+    text-align: center;
+    color: white;
+}
+
+
+#description{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#survey-form{
+    background-image:linear-gradient(rgba(27, 27, 50,0.8)) ;
+    width: 60%;
+    margin: 0 auto;   
+}
+
+
+#form-in{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px auto;   
+}
+
+
+#dropdown{
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+#text-area{
+    background-color: white;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#submit{
+    color: white;
+    background-color: #37af65;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+
